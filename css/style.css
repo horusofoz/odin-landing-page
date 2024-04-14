@@ -60,7 +60,7 @@ header {
   flex-direction: row;
   height: 50px;
   justify-content: space-between;
-  width: 1080px;
+  width: 800px;
 }
 
 .logo a {
@@ -97,7 +97,7 @@ main {
   align-items: stretch;
   display: flex;
   gap: 32px;
-  width: 1080px;
+  width: 800px;
 }
 
 .main-hero-left {
@@ -125,7 +125,8 @@ main {
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
-  padding: 0 100px;
+  margin: auto;
+  width: 800px;
 }
 
 .hero-text {
@@ -158,9 +159,9 @@ button {
 }
 
 .container-information {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .container-cards {
@@ -195,6 +196,26 @@ button {
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  text-align: right;
+}
+
+.container-action {
+  background-color: #3882f6;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  padding: 32px 64px;
+  width: 100%;
+}
+
+.container-action button {
+  border: 1px white solid;
 }
 
 footer {
